@@ -31,10 +31,11 @@ export default function Home() {
     >
       <div className="max-w-3xl" ref={titleRef}>
         <h1
-          className="text-5xl md:text-7xl font-sans font-normal leading-tight mb-8 animate-fade-in opacity-0"
+          className="text-5xl md:text-7xl font-sans font-normal leading-relaxed mb-8 animate-fade-in opacity-0"
           style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
         >
-          hello there, i'm <span className="font-medium">Prateek</span>
+          hello there, i'm{" "}
+          <span className="font-bold md:text-7xl">Prateek</span>
         </h1>
 
         <p

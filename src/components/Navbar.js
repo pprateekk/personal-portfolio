@@ -8,14 +8,12 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
 
-      const sections = [
-        "home",
-        "about",
-        "experience",
-        "coop",
-        "project",
-        "contact",
-      ];
+      if (window.scrollY < 100) {
+        setActiveSection("home");
+        return;
+      }
+
+      const sections = ["about", "experience", "coop", "project", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -41,25 +39,27 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-10  p-4 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-10 p-4 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-5xl mx-auto px-4 flex justify-between items-center">
-        <a href="#home" className="font-sans text-lg tracking-tight">
+      <div className="max-w-3xl mx-auto  flex justify-between items-center">
+        <a href="#home" className="font-sans pr-5 text-lg tracking-tight">
           prateek
         </a>
         <ul className="flex space-x-8 font-sans text-sm">
-          {["home", "about", "experience", "coop", "projects", "contact"].map(
+          {["about", "experience", "coop", "projects", "contact"].map(
             (item) => {
               const link = item.toLowerCase();
+              const sectionId = link === "projects" ? "project" : link;
+
               const isActive =
-                activeSection === (link === "projects" ? "project" : link);
+                activeSection !== "home" && activeSection === sectionId;
 
               return (
                 <li key={link}>
                   <a
-                    href={`#${link === "projects" ? "project" : link}`}
+                    href={`#${sectionId}`}
                     className={`relative pb-1 transition-colors ${
                       isActive
                         ? "text-black"

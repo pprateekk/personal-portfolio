@@ -6,7 +6,9 @@ export default function Experience() {
       id="experience"
       className="max-w-3xl mx-auto py-24 border-t border-neutral-100"
     >
-      <h2 className="md:text-4xl font-bold mb-12 font-sans">experience</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 font-sans">
+        experience
+      </h2>
 
       <div className="space-y-12 pt-4">
         <div>
