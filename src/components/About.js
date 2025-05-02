@@ -7,21 +7,12 @@ export default function About() {
   const aboutContent = (
     <div className="space-y-6 pt-4 prose prose-neutral max-w-none">
       <p className="text-sm leading-relaxed">
-        I enjoy building things that doesn’t fall apart when new features are
-        added. My goal is to create meaningful software—whether it’s making the
-        web more accessible or solving problems in ways that just feel right. My
-        experience covers a broad range of projects: accessibility tools built
-        with Node.js and Puppeteer, desktop applications using C# and .NET, and
-        real-time chat platforms leveraging Socket.io, MongoDB, and JWT-based
-        authentication. <br />
-        <br />
-        Curiosity drives much of my work—sometimes it’s for a specific project,
-        sometimes for research, and often simply for the joy of learning. This
-        curiosity led me into natural language processing, where I co-authored a
-        published paper on text mining. <br />
-        <br />
-        Away from the keyboard, I unwind with table tennis, the occasional good
-        read, and photography walks.
+        I like building things and figuring them out by doing. If it solves a
+        real problem or even just teaches me something new, I’m all in. That’s
+        how I’ve learned most of what I know: by hitting roadblocks, fixing
+        bugs, and slowly watching things take shape.
+        <br /> <br /> Away from the keyboard, I unwind with table tennis, the
+        occasional good read, and photography walks.
       </p>
     </div>
   );

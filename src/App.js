@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import CoopPage from "./components/Coop";
 import Experience from "./components/Experience";
+import Blogs from "./components/Blog";
 import "./App.css";
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         <Home />
         <About />
         <Experience />
+        <Blogs />
         <CoopPage />
         <Projects />
         <Contact />

@@ -13,7 +13,14 @@ const Navbar = () => {
         return;
       }
 
-      const sections = ["about", "experience", "coop", "project", "contact"];
+      const sections = [
+        "about",
+        "experience",
+        "blog",
+        "coop",
+        "project",
+        "contact",
+      ];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -43,12 +50,12 @@ const Navbar = () => {
         isScrolled ? "bg-white shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-3xl mx-auto  flex justify-between items-center">
+      <div className="max-w-3xl mx-auto flex justify-between items-center">
         <a href="#home" className="font-sans pr-5 text-lg tracking-tight">
           prateek
         </a>
         <ul className="flex space-x-8 font-sans text-sm">
-          {["about", "experience", "coop", "projects", "contact"].map(
+          {["about", "experience", "blog", "coop", "projects", "contact"].map(
             (item) => {
               const link = item.toLowerCase();
               const sectionId = link === "projects" ? "project" : link;

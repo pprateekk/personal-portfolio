@@ -11,6 +11,21 @@ export default function Experience() {
       </h2>
 
       <div className="space-y-12 pt-4">
+        {/* <div>
+          <div className="flex justify-between items-baseline mb-2">
+            <h3 className="text font-medium font-sans">
+              Data Analyst at University of Guelph
+            </h3>
+            <span className="text-sm font-mono text-neutral-500">
+              May 2025 - Present
+            </span>
+          </div>
+          <ul className="prose prose-neutral max-w-none text-sm leading-relaxed space-y-2 list-disc pl-5">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div> */}
         <div>
           <div className="flex justify-between items-baseline mb-2">
             <h3 className="text font-medium font-sans">
