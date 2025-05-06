@@ -58,7 +58,7 @@ function App() {
         <About />
         <Experience />
         <Blogs />
-        <CoopPage />
+        {/* <CoopPage /> */}
         <Projects />
         <Contact />
       </div>
