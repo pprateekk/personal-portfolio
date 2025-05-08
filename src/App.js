@@ -57,9 +57,9 @@ function App() {
         <Home />
         <About />
         <Experience />
-        <Blogs />
         {/* <CoopPage /> */}
         <Projects />
+        <Blogs />
         <Contact />
       </div>
     </main>

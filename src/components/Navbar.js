@@ -16,9 +16,9 @@ const Navbar = () => {
       const sections = [
         "about",
         "experience",
-        "blog",
-        "coop",
+        // "coop",
         "project",
+        "blog",
         "contact",
       ];
       const scrollPosition = window.scrollY + 100;
@@ -55,7 +55,7 @@ const Navbar = () => {
           prateek
         </a>
         <ul className="flex space-x-8 font-sans text-sm">
-          {["about", "experience", "blog", "coop", "projects", "contact"].map(
+          {["about", "experience", "projects", "blog", "contact"].map(
             (item) => {
               const link = item.toLowerCase();
               const sectionId = link === "projects" ? "project" : link;
