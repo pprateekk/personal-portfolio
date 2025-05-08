@@ -2,6 +2,7 @@ import molecule from "./assets/molecule.jpg";
 import sudoku from "./assets/sudoku.png";
 import chatapp from "./assets/chatapp.png";
 import a11y from "./assets/a11y1.png";
+import waterwize from "./assets/waterwize.png";
 
 export const projects = [
   {
@@ -17,6 +18,13 @@ export const projects = [
       "a full-stack web-based chat application developed using React, Node.js, and Socket.IO for real-time communication.",
     image: chatapp,
     link: "https://github.com/pprateekk/yapsterly",
+  },
+  {
+    title: "water-wize",
+    description:
+      "a full-stack platform for exploring environmental pollution data through interactive maps, charts, and a RESTful backend.",
+    image: waterwize,
+    link: "https://github.com/pprateekk/water-wize",
   },
   {
     title: "sudoku-solver-GUI",
