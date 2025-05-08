@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Experience() {
-  const [activeSection, setActiveSection] = useState("teaching");
+  const [activeSection, setActiveSection] = useState("analyst");
 
   const experienceData = [
     {

@@ -50,7 +50,10 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="max-w-3xl mx-auto py-24">
+    <section
+      id="contact"
+      className="max-w-3xl mx-auto py-24 border-t border-neutral-100"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-8 font-sans">
