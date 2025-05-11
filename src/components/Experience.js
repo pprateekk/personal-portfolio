@@ -10,7 +10,7 @@ export default function Experience() {
       period: "May 2025 - Present",
       title: "Data Analyst @ University of Guelph",
       details: [
-        "Contributing to the development of internal data tools and dashboards using Python and Tableau to enhance decision-making for program stakeholders",
+        "Developing internal data tools and dashboards using Python and Tableau to enhance decision-making for program stakeholders",
         "Collaborating with cross-functional teams to define data requirements and prepare datasets for analysis and visualization",
       ],
     },
@@ -35,7 +35,7 @@ export default function Experience() {
         "Designed and implemented a text mining pipeline using NLP techniques to extract insights from large student feedback datasets.",
         "Applied ML algorithms (clustering, LDA, NMF), showing NMF’s superior topic interpretability with a coherence score of 0.42",
         "Performed data preprocessing and feature selection, improving data quality and reducing dimensionality for better model performance.",
-        "Co-authored a peer-reviewed paper published in Lecture Notes in Computer Science (Springer): 'Integrative Mining Pipeline for Improved Reflections of Course Feedback,' iiWAS 2024",
+        'Co-authored a peer-reviewed paper published in Lecture Notes in Computer Science (Springer): "Integrative Mining Pipeline for Improved Reflections of Course Feedback," iiWAS 2024',
       ],
     },
     {
@@ -44,7 +44,7 @@ export default function Experience() {
       period: "Sep 2022 - Apr 2023",
       title: "Teaching Assistant @ University of Guelph",
       details: [
-        "Conducted lab sessions for over 50 students, providing instruction on C programming concepts such as pointers, memory allocation, and data structures.",
+        "Conducted lab sessions for over 50 students, providing instructions on C programming concepts such as pointers, memory allocation, and data structures.",
         "Assisted students during office hours by clarifying lab assignments, debugging issues, and reinforcing lecture material.",
         "Coordinated with other teaching assistants to align on grading rubrics, lab content, and assignment expectations.",
       ],

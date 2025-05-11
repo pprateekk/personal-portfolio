@@ -3,6 +3,15 @@ import React from "react";
 export default function Blog() {
   const blogs = [
     {
+      id: 2,
+      title: "How a Lecture Slide Got Me Thinking About Accessibility",
+      date: "May 10, 2025",
+      summary:
+        "How a university UI class got me curious about accessibility and led me to build my own CLI tool to audit web pages from the terminal.",
+      tags: ["Accessibility", "NodeJS", "axe-core", "CI/CD"],
+      url: "https://medium.com/@pprateek1204/how-a-lecture-slide-got-me-thinking-about-accessibility-e1901959bc7f",
+    },
+    {
       id: 1,
       title:
         "My First Research Paper: How I Used Text Mining to Make Sense of Student Feedback",

@@ -60,10 +60,7 @@ export default function Contact() {
             get in touch
           </h2>
 
-          <p className="text-neutral-600 mb-12 max-w-md">
-            feel free to reach out if you're looking for a developer, have a
-            question, or just want to connect.
-          </p>
+          <p className="text-neutral-600 mb-12 max-w-md">i can be reached at</p>
 
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
